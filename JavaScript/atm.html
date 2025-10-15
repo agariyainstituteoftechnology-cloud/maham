@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+    <script>
+        var amount = Number(prompt("Enter amount"));
+
+        var n5000 = Math.floor(amount / 5000);
+        amount = amount % 5000;
+
+        var n1000 = Math.floor(amount / 1000);
+        amount = amount % 1000;
+
+        var n500 = Math.floor(amount / 500);
+        amount = amount % 500;
+
+        console.log(n5000 + " x 5000");
+        console.log(n1000 + " x 1000");
+        console.log(n500 + " x 500");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

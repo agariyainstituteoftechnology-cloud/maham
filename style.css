@@ -95,6 +95,7 @@ body {
 
 .imgs {
     gap: 15px;
+    margin-left: 155px;
 }
 
 .nav .active {
@@ -124,7 +125,6 @@ body {
 
 /*-----BANNER SECTION-----*/
 .banner {
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -168,9 +168,9 @@ body {
     border-radius: 35px;
 }
 
-.banner .banner-img {
-    position: relative;
-    right: -80px;
+.banner .banner-img img {
+    width: 100%;
+
 }
 /*----------------------------*/
 
@@ -231,7 +231,6 @@ body {
 
 .b-sale {
     height: 1225px;
-    padding: 30px;
 }
 
 .products {
@@ -239,7 +238,7 @@ body {
     grid-template-areas:
         "product-1 product-2 product-3 product-4"
         "product-5 product-6 product-7 product-8";
-    gap: 25px;
+    gap: 30px;
 }
 
 
@@ -482,7 +481,7 @@ div .radius-1 {
 }
 
 .footer {
-    padding: 50px 80px;
+    padding: 50px 0px;
     font-size: 16px;
     font-weight: 400px;
 }
@@ -538,8 +537,12 @@ div .radius-1 {
 }
 
 .e-commerce {
-    background-color: #FAFCFE;
-    padding: 20px 0px 20px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.e-c {
+    padding: 0px;
 }
 
 .e-com {
@@ -552,7 +555,7 @@ div .radius-1 {
 }
 
 .payment-1 {
-    margin-left: 450px;
+    margin-left: 518px;
 }
 
 hr {
@@ -566,7 +569,6 @@ hr {
     background-color: #FAFCFE;
     padding-top: 30px;
     height: 1787px;
-    padding: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -619,7 +621,7 @@ hr {
 }
 
 .details {
-    padding: 40px;
+    padding: 40px 0px;
     margin-top: 20px;
     margin-bottom: 20px;
     
@@ -627,7 +629,6 @@ hr {
 
 section .selected {
     margin-bottom: 20px;
-    padding-left: 22px;
 }
 
 section .selected-1 {
@@ -638,8 +639,7 @@ section .selected-1 {
 .main-img {
     position: relative;
     overflow: hidden;
-    margin-left: 40px;
-
+    margin-left: 30px;
 }
 
 .selected-1:hover .srch-slider {
@@ -651,7 +651,7 @@ section .selected-1 {
     position: absolute;
     inset: 0;
     top: 20px;
-    left: 390px;
+    left: 410px;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -663,7 +663,7 @@ section .selected-1 {
     position: absolute;
     inset: 0;
     top: 290px;
-    left: 390px;
+    left: 410px;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -743,7 +743,7 @@ section .selected-1 {
 
 .select-foam {
     height: 650px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .options .option-title {
@@ -889,10 +889,6 @@ input[type="checkbox"] {
 /*----------------------------*/
 
 /*-----DESCRIPTION-----*/
-.describe {
-    padding: 0px 60px;
-}
-
 .related {
     margin-top: 20px;
 }
@@ -915,7 +911,7 @@ input[type="checkbox"] {
     margin-top: 15px;
     color: var(--text-color-blue);
     opacity: 80%;
-    padding: 6px;
+    padding: 6px 0px;
     font-style: normal;
     overflow: hidden;
 }
@@ -924,7 +920,7 @@ input[type="checkbox"] {
     font-size: 16px;
     font-weight: 400px;
     letter-spacing: 0.34px;
-    padding: 0px 7px 6px 6px;
+    padding: 6px 0px;
     color: var(--text-color-blue);
     opacity: 70%;
     font-style: normal;
@@ -932,6 +928,9 @@ input[type="checkbox"] {
 }
 
 /*-----REVIEWS-----*/
+.review-9{
+    margin-left: 10px;
+}
 .review-9 .comments {
     margin-top: 30px;
 }
